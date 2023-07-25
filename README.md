@@ -17,7 +17,7 @@ Repository for 'Privacy-Preserving Offloading Scheme in Multi-Access Edge Comput
 1. 安装依赖：确保您已经安装了Python 3.8.5和PyTorch 1.8.1，并准备了支持GPU运行的环境。
 
 2. 克隆项目：使用以下命令将项目克隆到本地：
-git clone https://github.com/Maresoul/JODRL-PP
+git clone https://github.com/Maresoul/JODRL-PP.git
 
 3. 切换目录：进入项目文件夹:
 cd pytorch-jodrl_pp
