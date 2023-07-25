@@ -25,7 +25,7 @@ cd pytorch-jodrl_pp
 4. 运行程序：执行以下命令运行主程序
 python main.py
 
-5.对照算法：
+5. 对照算法：
 进入compare_algorithm文件夹，找到相应算法执行
 
 ## 文件结构
@@ -34,7 +34,7 @@ python main.py
 - `compare_algorithm/`: 包含对照试验的程序文件夹。
 - `discen.py`: 基线算法1，去中心化学习策略网络。
 - `local.py`: 基线算法2，任务全部本地执行。
-- `near.py`: 基线算法，任务卸载到最近边缘节点。
+- `near.py`: 基线算法3，任务卸载到最近边缘节点。
 - `qmix`: QMIX算法程序文件夹。
 - `mappo/`: MAPPO算法程序文件夹。
 - `MEC_env.py`: 与智能体交互的MEC环境设置。
