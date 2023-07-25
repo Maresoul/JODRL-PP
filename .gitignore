@@ -1,0 +1,8 @@
+# 忽略编译生成文件
+*.file
+*.out
+*.png
+
+#忽略画图文件
+draw/
+new_draw/

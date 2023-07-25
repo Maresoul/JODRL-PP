@@ -1,6 +1,6 @@
 from collections import namedtuple
 import random
-Experience = namedtuple('Experience',
+Experience = namedtuple('Experience',                                       #具名元组
                         ('states', 'actions', 'next_states', 'rewards'))
 
 
