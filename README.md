@@ -1,48 +1,55 @@
-## 项目名称
+## Project Name
 
 Repository for 'Privacy-Preserving Offloading Scheme in Multi-Access Edge Computing Based on MADRL'
 
-## 实验环境
+## Experiment Environment
 
-- Python版本: 3.8.5
-- PyTorch版本: 1.8.1
-- GPU运行：是
+- Python Version: 3.8.5
+- PyTorch Version: 1.8.1
+- GPU Enabled: Yes
 
-## 简介
+## Introduction
 
-本算法是对论文Privacy-Preserving Offloading Scheme in Multi-Access Edge Computing Based on MADRL所提出模型和算法的代码实现，智能体通过与环境不断交互，获得奖励，逐渐学习更好的卸载策略，从而完成对模型的性能和隐私优化。
+This algorithm is a code implementation of the model and algorithm proposed in the article "Privacy-Preserving Offloading Scheme in Multi-Access Edge Computing Based on MADRL." In the experiment, the intelligent agent interacts with the environment, receives rewards, and gradually learns better offloading strategies to optimize the performance and privacy of the model.
 
-## 运行方法
 
-1. 安装依赖：确保您已经安装了Python 3.8.5和PyTorch 1.8.1，并准备了支持GPU运行的环境。
+## Running Instructions
 
-2. 克隆项目：使用以下命令将项目克隆到本地：
+1. Install Dependencies:
+Make sure you have Python 3.8.5 and PyTorch 1.8.1 installed and have a GPU-enabled environment ready.
+
+2. Clone the Project: Use the following command to clone the project to your local machine:
+````
 git clone https://github.com/Maresoul/JODRL-PP.git
+````
 
-3. 切换目录：进入项目文件夹:
+3. Change Directory: Enter the project folder:
+````
 cd pytorch-jodrl_pp
+````
 
-4. 运行程序：执行以下命令运行主程序
+4. Run the Program: Execute the following command to run the main program:
+````
 python main.py
+````
 
-5. 对照算法：
-进入compare_algorithm文件夹，找到相应算法执行
+5. Compare Algorithms:
+Navigate to the compare_algorithm folder and execute the corresponding algorithm.
 
-## 文件结构
+## File Structure
 
-- `main.py`: 主程序入口，运行实验设计程序。
-- `compare_algorithm/`: 包含对照试验的程序文件夹。
-- `discen.py`: 基线算法1，去中心化学习策略网络。
-- `local.py`: 基线算法2，任务全部本地执行。
-- `near.py`: 基线算法3，任务卸载到最近边缘节点。
-- `qmix`: QMIX算法程序文件夹。
-- `mappo/`: MAPPO算法程序文件夹。
-- `MEC_env.py`: 与智能体交互的MEC环境设置。
+- `main.py`: Main program entry point, runs the experimental design.
+- `compare_algorithm/`: Contains program files for comparative experiments.
+- `discen.py`: Baseline algorithm 1, decentralized learning policy network.
+- `local.py`: Baseline algorithm 2, all tasks executed locally.
+- `near.py`: Baseline algorithm 3, tasks offloaded to the nearest edge node.
+- `qmix/`: QMIX algorithm program folder.
+- `mappo/`: MAPPO algorithm program folder.
+- `MEC_env.py`: MEC environment settings for interaction with the intelligent agent.
 
-## 使用说明
+## Usage Notes
 
-程序经过多次修改和更正，在本机能够正常运行，如果运行出错，很可能GPU参数有误，请仔细确认。
-
+This program has undergone multiple modifications and corrections to ensure proper functioning on this machine. If you encounter any errors during execution, it is likely that GPU parameters are misconfigured. Please double-check the settings carefully.
 
 
 
